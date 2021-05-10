@@ -7,17 +7,15 @@ introduced by Efron (1979). Its use in practice is widespread, but many practiti
 do not fully understand its limits, and under which circumstances it works or does not
 work. This thesis tries to address that, first by diving into the theoretical underpinnings
 of the bootstrap and then by analysing its performance in some scenarios in practice.
-Chapter 1 starts with an introduction to the bootstrap, its fundamental principles and
-how it works. Chapter 2 gets into when the bootstrap works (consistency) and when
-it does not, and if it works at which rate it does so (accuracy). Chapter 3 explores a
-number of first- and second-order accurate bootstrap confidence intervals, introduces a
-general technique to improve bootstrap intervals called double bootstrap and presents
-the two most well-known R packages to implement the bootstrap. Chapter 4 illustrates
-the results from a coverage analysis of bootstrap intervals in different scenarios for the
-sample mean, sample median and sample (Pearson) correlation coefficient, computed via
-simulations. Chapter 5 makes a summary of the thesis and presents a list of conclusions.
-Finally, Chapter 6 outlines interesting points and topics we wanted to explore further
-but had no time for them.
+
+* __Chapter 1__ starts with an introduction to the bootstrap, its fundamental principles and how it works.
+* __Chapter 2__ gets into when the bootstrap works (consistency) and when it does not, and if it works at which rate it does so (accuracy).
+* __Chapter 3__ explores a number of first- and second-order accurate bootstrap confidence intervals, introduces a general technique
+  to improve bootstrap intervals called double bootstrap and presents the two most well-known R packages to implement the bootstrap.
+* __Chapter 4__ illustrates the results from a coverage analysis of bootstrap intervals in different scenarios for the
+  sample mean, sample median and sample (Pearson) correlation coefficient, computed via simulations.
+* __Chapter 5__ makes a summary of the thesis and presents a list of conclusions.
+* __Chapter 6__ outlines interesting points and topics to explore further.
 
 ## Code
 The code available in this repository has been used to run the simulations for Chapter 4: Coverage
