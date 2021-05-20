@@ -1,12 +1,12 @@
 # Review of bootstrap principles and coverage analysis of bootstrap confidence intervals for common estimators
-This is a project developed in Autumn 2019 as the master thesis for my MSc in Statistics at ETH Zurich.
+This project was developed in Autumn 2019 as part of my master thesis for the MSc in Statistics at ETH Zurich.
 
 ## Abstract
-The bootstrap is a statistical technique that has been around for 40 years, since it was
+The bootstrap is a statistical technique that has been around for 40 years since it was
 introduced by Efron (1979). Its use in practice is widespread, but many practitioners
-do not fully understand its limits, and under which circumstances it works or does not
-work. This thesis tries to address that, first by diving into the theoretical underpinnings
-of the bootstrap and then by analysing its performance in some scenarios in practice.
+do not fully understand its limits and under which circumstances it works or does not
+work. This thesis tries to address this issue, first by exploring the theoretical underpinnings
+of the bootstrap and then by analysing its performance in some practical scenarios for common estimators.
 
 * __Chapter 1__ starts with an introduction to the bootstrap, its fundamental principles and how it works.
 * __Chapter 2__ gets into when the bootstrap works (consistency) and when it does not, and if it works at which rate it does so (accuracy).
